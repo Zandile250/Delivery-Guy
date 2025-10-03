@@ -21,18 +21,58 @@ Key Features
 - HTML5 – for semantic structure and content
 - CSS3 – for styling and layout
 - Embedded Media – for video integration
+  -Bootstrap 5.3.0 – for responsive components
+  CSS Custom Properties
+  -I added CSS variables at the top of my stylesheet to make it easier to change colors and spacing throughout the site. Instead of writing the same color code everywhere, I can just use var(--primary) and change it once if needed.
+  -Better Typography
+  Fixed all the heading sizes so they look better and work well on different screens. Used rem and em units instead of fixed pixel sizes so everything scales properly when you zoom in or change screen sizes.
+  Layouts
 
-Getting Started
-To explore the project:
+Used Flexbox for the navigation menu and image gallery. It helps things line up nicely and wrap to new lines on smaller screens.
+Added CSS Grid for the gallery section. It automatically creates 3 columns on desktop and switches to 1 column on mobile, which is pretty cool.
 
-- Download or clone the repository
-- Open index.html in your preferred browser
-- Navigate through the site to view services, watch the demo, and submit an enquiry
-  Future Enhancements
-  Future Enhancements
-- Add JavaScript for dynamic interactions
-- Connect backend services to handle form submissions
-- Improve accessibility for users with assistive technologies
+Making Things Interactive
+Added hover effects to buttons and links so they change color or move slightly when you hover over them. Also added focus states (the outline you see when you tab through elements) for better accessibility.
+Responsive Design
+Made the website work on different screen sizes:
+
+Mobile (phones): Everything stacks vertically, buttons are full width, images are smaller
+Tablet: Two-column layout in some places, medium-sized text
+Desktop: Full three-column gallery, bigger text, more spacing
+
+Used media queries to make these changes happen automatically based on screen width.
+What I Tested
+Checked the website on:
+
+My laptop (1440px wide)
+Chrome DevTools for tablet view (768px)
+Chrome DevTools for phone view (375px)
+
+Everything looks good and nothing breaks on smaller screens.
+Files Changed
+
+css/styles.css - Added all the responsive CSS and cleaned up the code
+Used the <picture> element in HTML for responsive images
+
+Resources I Used
+
+W3Schools for the <picture> element
+Class notes on Flexbox and Grid
+MDN docs when I got stuck with media queries
+
+Future Enhancements
+
+Add JavaScript for dynamic interactions
+Connect backend services to handle form submissions
+Improve accessibility for users with assistive technologies
+Add animations using CSS keyframes
+
+References
+
+W3Schools. (2023). HTML <picture> Element. [online] Available at: https://www.w3schools.com/tags/tag_picture.asp [Accessed 28 Sep. 2025]
+MDN Web Docs. (2024). CSS Flexible Box Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
+MDN Web Docs. (2024). CSS Grid Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+Bootstrap Documentation. (2023). Bootstrap v5.3. Available at: https://getbootstrap.com/docs/5.3/
 
 Author
 Zandile
