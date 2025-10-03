@@ -71,13 +71,13 @@ Screenshots
 Here's how the site looks on different devices:
 
 **Mobile (375px)**
-![Mobile view](screenshots/mobile.png)
+<img src="screenshots/screenshot mobile.PNG" width="300">
 
 **Tablet (768px)**
-![Tablet view](screenshots/tablet.png)
+<img src="screenshots/Tablet size.PNG" width="500">
 
 **Desktop (1440px)**
-![Desktop view](screenshots/desktop.png)
+<img src="screenshots/Desktop size.PNG" width="700">
 
 References
 
