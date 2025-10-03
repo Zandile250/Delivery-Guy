@@ -66,6 +66,18 @@ Add JavaScript for dynamic interactions
 Connect backend services to handle form submissions
 Improve accessibility for users with assistive technologies
 Add animations using CSS keyframes
+Screenshots
+
+Here's how the site looks on different devices:
+
+**Mobile (375px)**
+![Mobile view](screenshots/mobile.png)
+
+**Tablet (768px)**
+![Tablet view](screenshots/tablet.png)
+
+**Desktop (1440px)**
+![Desktop view](screenshots/desktop.png)
 
 References
 
