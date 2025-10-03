@@ -71,13 +71,23 @@ Screenshots
 Here's how the site looks on different devices:
 
 **Mobile (375px)**
-<img src="screenshots/screenshot mobile.PNG" width="300">
+<img src="screenshots/Mobile.PNG" width="300">
 
 **Tablet (768px)**
-<img src="screenshots/Tablet size.PNG" width="500">
+<img src="screenshots/Tablet.PNG" width="500">
 
 **Desktop (1440px)**
-<img src="screenshots/Desktop size.PNG" width="700">
+<img src="screenshots/Desktop.PNG" width="700">
+
+Responsive Design
+Made the website work on different screen sizes using media queries:
+
+- **Mobile (phones)**: Everything stacks vertically, buttons are full width
+- **Tablet**: Two-column layout, medium-sized text
+- **Desktop**: Full three-column gallery, bigger text, more spacing
+
+-What I Tested
+Checked the website on Chrome DevTools at 375px (mobile), 768px (tablet), and 1440px (desktop).
 
 References
 
