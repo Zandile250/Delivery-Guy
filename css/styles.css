@@ -398,3 +398,56 @@ p {
 
 /* Reference: W3Schools. (2023). HTML <picture> Element. 
    Available at: https://www.w3schools.com/tags/tag_picture.asp */
+.accordion-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden; /* Important for clean borders */
+}
+
+.accordion-item {
+  border-bottom: 1px solid #eee;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-header {
+  background-color: #f8f9fa;
+  color: #333;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: background-color 0.2s;
+  font-weight: 600;
+}
+
+.accordion-header:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-item.active .accordion-header {
+  background-color: #007bff; /* Primary blue when active */
+  color: white;
+}
+
+.accordion-content {
+  /* Critical for the JS transition */
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  background-color: white;
+}
+
+.accordion-content p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+}
