@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SmartBox Contact</title>
 
-    <!-- Bootstrap CSS -->
+    <meta
+      name="description"
+      content="Contact SmartBox for general inquiries, support, or feedback using our secure online form."
+    />
+    <meta
+      name="keywords"
+      content="contact smartbox, customer support, feedback form, address, phone number"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,44 +20,8 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body class="bg-light">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">SmartBox</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutUs.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="contactUs.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="service.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="enquiry.html">Enquiries</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary"></nav>
 
-    <!-- Contact Section -->
     <section id="contact" class="container my-5">
       <h2 class="mb-3">Contact Us</h2>
       <p>
@@ -58,12 +29,7 @@
         form below and we’ll get back to you as soon as possible.
       </p>
 
-      <form
-        action="mailto:info@smartbox.co.za"
-        method="post"
-        enctype="text/plain"
-        class="mb-5"
-      >
+      <form id="contactForm" class="mb-5">
         <div class="mb-3">
           <label for="name" class="form-label">Full Name:</label>
           <input
@@ -73,6 +39,7 @@
             class="form-control"
             required
           />
+          <span class="error-message text-danger" id="nameError"></span>
         </div>
 
         <div class="mb-3">
@@ -84,16 +51,32 @@
             class="form-control"
             required
           />
+          <span class="error-message text-danger" id="emailError"></span>
         </div>
 
         <div class="mb-3">
           <label for="phone" class="form-label">Phone Number:</label>
-          <input type="tel" id="phone" name="phone" class="form-control" />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            class="form-control"
+            pattern="[0-9]{10}"
+            title="Phone number must be 10 digits"
+          />
+          <span class="error-message text-danger" id="phoneError"></span>
         </div>
 
         <div class="mb-3">
           <label for="subject" class="form-label">Subject:</label>
-          <input type="text" id="subject" name="subject" class="form-control" />
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            class="form-control"
+            required
+          />
+          <span class="error-message text-danger" id="subjectError"></span>
         </div>
 
         <div class="mb-3">
@@ -105,40 +88,18 @@
             class="form-control"
             required
           ></textarea>
+          <span class="error-message text-danger" id="messageError"></span>
         </div>
+
+        <div id="formResponse" class="mb-3"></div>
 
         <button type="submit" class="btn btn-primary me-2">Send Message</button>
         <button type="reset" class="btn btn-secondary">Clear</button>
       </form>
-
-      <h3>Our Contact Details</h3>
-      <ul class="list-group">
-        <li class="list-group-item">
-          <strong>Address:</strong> 123 Innovation Street, Tech City, South
-          Africa
-        </li>
-        <li class="list-group-item"><strong>Phone:</strong> +27 82 123 4567</li>
-        <li class="list-group-item">
-          <strong>Email:</strong> info@smartbox.co.za
-        </li>
-        <li class="list-group-item">
-          <strong>Website:</strong>
-          <a href="index.html" target="_blank">SmartBox Service</a>
-        </li>
-        <li class="list-group-item">
-          <strong>Customer Support Hours:</strong> Monday–Friday, 8:00 AM – 6:00
-          PM
-        </li>
-      </ul>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <p>&copy; 2025 SmartBox. All rights reserved.</p>
-      <p>Designed by Zandile Gwala</p>
-    </footer>
+    <footer class="footer"></footer>
 
-    <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>
