@@ -96,6 +96,15 @@ MDN Web Docs. (2024). CSS Flexible Box Layout. Available at: https://developer.m
 MDN Web Docs. (2024). CSS Grid Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
 Bootstrap Documentation. (2023). Bootstrap v5.3. Available at: https://getbootstrap.com/docs/5.3/
 
+Responsive Design
+The website layout automatically adjusts to different screen sizes, including mobile phones, tablets, and desktops. This was achieved using Bootstrap 5, which provides flexible grid systems and responsive components.
+
+Interactive FAQ (Accordion)
+On the service.html page, I added an accordion component using Vanilla JavaScript. This allows users to click on a question and reveal the answer, improving the overall user experience and keeping the page clean and easy to navigate.
+
+Form Validation & AJAX
+On the contactUs.html page, I implemented client-side form validation to ensure users fill in all required fields correctly. The form also uses AJAX submission, which sends the data without reloading the page and displays a success message after submission. This makes the inquiry process smoother and more user-friendly.
+
 Author
 Zandile
 A developer with a passion for human-centered design, clear communication, and practical web solutions. This project reflects a commitment to usability, empathy, and thoughtful execution.
