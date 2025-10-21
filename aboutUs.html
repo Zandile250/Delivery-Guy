@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+   
   <head>
+       
     <meta charset="UTF-8" />
+       
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us - SmartBox</title>
 
-    <!-- Bootstrap CSS -->
+    <title>SmartBox Contact</title>
+    <meta
+      name="description"
+      content="Contact SmartBox for general inquiries, support, or feedback using our secure online form."
+    />
+    <meta
+      name="keywords"
+      content="contact smartbox, customer support, feedback form, address, phone number"
+    />
+           
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+       
     <link rel="stylesheet" href="css/styles.css" />
+     
   </head>
+   
   <body class="bg-light">
-    <!-- Navbar -->
+           
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+           
       <div class="container">
-        <a class="navbar-brand" href="index.html">SmartBox</a>
+                <a class="navbar-brand" href="index.html">SmartBox</a>        
         <button
           class="navbar-toggler"
           type="button"
@@ -26,82 +41,179 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>        
         </button>
+               
         <div class="collapse navbar-collapse" id="navbarNav">
+                   
           <ul class="navbar-nav ms-auto">
+                       
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>      
+                   
             </li>
+                       
             <li class="nav-item">
-              <a class="nav-link active" href="aboutUs.html">About Us</a>
+                           
+              <a class="nav-link" href="aboutUs.html">About Us</a>            
             </li>
+                       
             <li class="nav-item">
-              <a class="nav-link" href="contactUs.html">Contact</a>
+                           
+              <a class="nav-link active" href="contactUs.html">Contact</a>      
+                   
             </li>
+                       
             <li class="nav-item">
-              <a class="nav-link" href="service.html">Services</a>
+                           
+              <a class="nav-link" href="service.html">Services</a>            
             </li>
+                       
             <li class="nav-item">
-              <a class="nav-link" href="enquiry.html">Enquiries</a>
+                           
+              <a class="nav-link" href="enquiry.html">Enquiries</a>            
             </li>
+                     
           </ul>
+                 
         </div>
+             
       </div>
+         
     </nav>
 
-    <!-- About Us Content -->
-    <div class="container my-5">
-      <h3 class="mb-3">Our Vision</h3>
-      <p class="mb-4">
-        We see a future where picking up or dropping off anything — from a
-        package to a meal — is as simple as scanning a code. SmartBox aims to be
-        part of everyday life, helping communities and businesses save time,
-        stay connected, and enjoy greater peace of mind.
+           
+    <section id="contact" class="container my-5">
+           
+      <h2 class="mb-3">Contact Us</h2>
+           
+      <p>
+                Have questions or need more information about SmartBox? Fill out
+        the         form below and we’ll get back to you as soon as possible.  
+           
       </p>
 
-      <h3 class="mb-3">Our Mission</h3>
-      <p class="mb-4">
-        At SmartBox, our mission is simple: to make life easier. We provide
-        secure, smart lockers that let people collect parcels, food, or personal
-        items whenever it suits them. No queues, no waiting — just safe,
-        convenient access, 24/7. We’re here to take the stress out of storage
-        and delivery so people and businesses can focus on what really matters.
-      </p>
+           
+      <form id="contactForm" class="mb-5">
+               
+        <div class="mb-3">
+                    <label for="name" class="form-label">Full Name:</label>    
+               
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="form-control"
+            required
+          />
+          <span class="error-message text-danger" id="nameError"></span>
+                 
+        </div>
 
-      <h3 class="mb-3">Our Values</h3>
-      <ol class="mb-5">
-        <li>
-          Convenience First – We believe technology should make life easier, not
-          more complicated.
-        </li>
-        <li>
-          Trust & Security – Keeping people’s items safe is at the heart of what
-          we do.
-        </li>
-        <li>
-          Innovation Everyday – We keep improving to make lockers smarter,
-          faster, and more user-friendly.
-        </li>
-        <li>
-          Accessibility for All – SmartBox is built for everyone: customers,
-          businesses, and communities.
-        </li>
-        <li>
-          Sustainability Matters – By reducing failed deliveries and unnecessary
-          trips, we help cut waste and carbon emissions.
-        </li>
-      </ol>
-    </div>
+               
+        <div class="mb-3">
+                   
+          <label for="email" class="form-label">Email Address:</label>          
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-control"
+            required
+          />
+          <span class="error-message text-danger" id="emailError"></span>
+                 
+        </div>
 
-    <!-- Footer -->
+               
+        <div class="mb-3">
+                   
+          <label for="phone" class="form-label">Phone Number:</label>          
+          <input type="tel" id="phone" name="phone" class="form-control" />
+          <span class="error-message text-danger" id="phoneError"></span>
+                 
+        </div>
+
+               
+        <div class="mb-3">
+                    <label for="subject" class="form-label">Subject:</label>    
+               
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            class="form-control"
+            required
+          />
+          <span class="error-message text-danger" id="subjectError"></span>
+                 
+        </div>
+
+               
+        <div class="mb-3">
+                    <label for="message" class="form-label">Message:</label>    
+               
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            class="form-control"
+            required
+          ></textarea>
+          <span class="error-message text-danger" id="messageError"></span>
+                 
+        </div>
+
+        <div id="formResponse" class="mb-3"></div>
+
+               
+        <button type="submit" class="btn btn-primary me-2">Send Message</button>
+                <button type="reset" class="btn btn-secondary">Clear</button>  
+           
+      </form>
+           
+      <h3>Our Contact Details</h3>
+           
+      <ul class="list-group">
+               
+        <li class="list-group-item">
+                    <strong>Address:</strong> 123 Innovation Street, Tech City,
+          South           Africa        
+        </li>
+               
+        <li class="list-group-item"><strong>Phone:</strong> +27 82 123 4567</li>
+               
+        <li class="list-group-item">
+                    <strong>Email:</strong> info@smartbox.co.za        
+        </li>
+               
+        <li class="list-group-item">
+                    <strong>Website:</strong>          
+          <a href="index.html" target="_blank">SmartBox Service</a>        
+        </li>
+               
+        <li class="list-group-item">
+                    <strong>Customer Support Hours:</strong> Monday–Friday, 8:00
+          AM – 6:00           PM        
+        </li>
+             
+      </ul>
+         
+    </section>
+
+           
     <footer class="footer">
+           
       <p>&copy; 2025 SmartBox. All rights reserved.</p>
+           
       <p>Designed by Zandile Gwala</p>
+         
     </footer>
 
-    <!-- Bootstrap JS Bundle -->
+           
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+       
     <script src="js/script.js"></script>
+     
   </body>
 </html>
