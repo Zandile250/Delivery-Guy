@@ -111,6 +111,11 @@ On the contactUs.html page, I implemented client-side form validation to ensure 
 - Improved video background visibility by removing conflicting background colors and ensuring overlay transparency.
 - Added README.md to document the project’s purpose, features, technologies used, and recent changes.
 
+- Embedded a responsive Google Map showing SmartBox HQ in Bryanston, Sandton
+- Added company address, contact number, and operating hours for clarity and professionalism
+- Styled headings and borders using SmartBox brand color #efd364 for visual consistency
+- Improved layout responsiveness across devices and ensured accessibility for all users
+
 Author
 Zandile
 A developer with a passion for human-centered design, clear communication, and practical web solutions. This project reflects a commitment to usability, empathy, and thoughtful execution.
