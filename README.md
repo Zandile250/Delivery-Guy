@@ -105,6 +105,12 @@ On the service.html page, I added an accordion component using Vanilla JavaScrip
 Form Validation & AJAX
 On the contactUs.html page, I implemented client-side form validation to ensure users fill in all required fields correctly. The form also uses AJAX submission, which sends the data without reloading the page and displays a success message after submission. This makes the inquiry process smoother and more user-friendly.
 
+- Updated index.html to include a consistent header navigation bar, ensuring users can easily access all pages from any part of the site. I also fixed layout issues and improved accessibility by adjusting color contrast and button spacing.
+- Expanded aboutUs.html with detailed sections on company history, awards, customer reviews, services, and target users. This helps communicate SmartBox’s mission and impact more clearly to visitors.
+- Styled headings using Bootstrap’s success color to visually highlight key sections like “Benefits” and “Our Journey.”
+- Improved video background visibility by removing conflicting background colors and ensuring overlay transparency.
+- Added README.md to document the project’s purpose, features, technologies used, and recent changes.
+
 Author
 Zandile
 A developer with a passion for human-centered design, clear communication, and practical web solutions. This project reflects a commitment to usability, empathy, and thoughtful execution.
