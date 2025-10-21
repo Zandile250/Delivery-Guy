@@ -238,6 +238,42 @@ p {
 .timeline p {
   color: var(--dark) !important;
 }
+.contact-section {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.contact-section h2,
+.contact-section h4 {
+  color: #efd364;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.contact-section p,
+.contact-section ul {
+  color: #212529;
+  font-size: 1rem;
+}
+
+.contact-section a {
+  color: #212529;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  color: #efd364;
+  text-decoration: underline;
+}
+
+.contact-map {
+  border: 2px solid #efd364;
+  border-radius: 8px;
+  width: 100%;
+  height: 400px;
+  max-width: 100%;
+}
 
 /* 3.3 Responsive Images */
 .img-fluid {
