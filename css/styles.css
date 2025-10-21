@@ -361,6 +361,71 @@ p {
   }
 }
 
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Header Navigation */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+}
+.success-heading {
+  color: rgba(var(--bs-success-rgb), 1);
+}
+
+header nav a {
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #ffc107;
+}
+
+section h2,
+section h3 {
+  color: #0d6efd;
+}
+
+.list-group-item {
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  background-color: #fff;
+  padding: 0.75rem 1rem;
+}
+
+blockquote {
+  background-color: #fff;
+  border-left: 5px solid #0d6efd;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+blockquote-footer {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
 .responsive-container {
   width: 90%;
   max-width: 1200px;
@@ -433,12 +498,11 @@ p {
 }
 
 .accordion-item.active .accordion-header {
-  background-color: #007bff; /* Primary blue when active */
+  background-color: #007bff;
   color: white;
 }
 
 .accordion-content {
-  /* Critical for the JS transition */
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;

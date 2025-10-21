@@ -1,207 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-   
   <head>
-       
     <meta charset="UTF-8" />
-       
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>SmartBox Contact</title>
+    <title>About Us | SmartBox</title>
     <meta
       name="description"
-      content="Contact SmartBox for general inquiries, support, or feedback using our secure online form."
+      content="Learn about SmartBox's mission, services, awards, and who we serve."
     />
     <meta
       name="keywords"
-      content="contact smartbox, customer support, feedback form, address, phone number"
+      content="SmartBox, about us, smart lockers, QR code storage, secure storage, contactless lockers"
     />
-           
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-       
     <link rel="stylesheet" href="css/styles.css" />
-     
   </head>
-   
   <body class="bg-light">
-           
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-           
-      <div class="container">
-                <a class="navbar-brand" href="index.html">SmartBox</a>        
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-                    <span class="navbar-toggler-icon"></span>        
-        </button>
-               
-        <div class="collapse navbar-collapse" id="navbarNav">
-                   
-          <ul class="navbar-nav ms-auto">
-                       
-            <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>      
-                   
-            </li>
-                       
-            <li class="nav-item">
-                           
-              <a class="nav-link" href="aboutUs.html">About Us</a>            
-            </li>
-                       
-            <li class="nav-item">
-                           
-              <a class="nav-link active" href="contactUs.html">Contact</a>      
-                   
-            </li>
-                       
-            <li class="nav-item">
-                           
-              <a class="nav-link" href="service.html">Services</a>            
-            </li>
-                       
-            <li class="nav-item">
-                           
-              <a class="nav-link" href="enquiry.html">Enquiries</a>            
-            </li>
-                     
-          </ul>
-                 
-        </div>
-             
+    <!-- Header Navigation -->
+    <header class="bg-dark text-white py-3">
+      <div class="container d-flex justify-content-between align-items-center">
+        <h1 class="text-warning mb-0">SmartBox</h1>
+        <nav>
+          <a href="index.html" class="text-white me-3">Home</a>
+          <a href="aboutUs.html" class="text-white fw-bold text-warning me-3"
+            >About Us</a
+          >
+          <a href="contactUs.html" class="text-white me-3">Contact</a>
+          <a href="service.html" class="text-white me-3">Services</a>
+          <a href="enquiry.html" class="text-white me-3">Enquiries</a>
+          <a href="Smartbox.html" class="text-white">Who Can Use SmartBox?</a>
+        </nav>
       </div>
-         
-    </nav>
+      <hr class="border-warning mt-2" />
+    </header>
 
-           
-    <section id="contact" class="container my-5">
-           
-      <h2 class="mb-3">Contact Us</h2>
-           
+    <section class="container my-5">
+      <h2 class="fw-bold mb-4 text-center">About Us</h2>
       <p>
-                Have questions or need more information about SmartBox? Fill out
-        the         form below and we’ll get back to you as soon as possible.  
-           
+        SmartBox was founded with a simple mission: to make storage smarter,
+        safer, and more convenient. From our first prototype to our
+        award-winning rollout, we’ve reimagined how people interact with
+        lockers—turning a traditional concept into a modern, tech-powered
+        solution.
       </p>
-
-           
-      <form id="contactForm" class="mb-5">
-               
-        <div class="mb-3">
-                    <label for="name" class="form-label">Full Name:</label>    
-               
-          <input
-            type="text"
-            id="name"
-            name="name"
-            class="form-control"
-            required
-          />
-          <span class="error-message text-danger" id="nameError"></span>
-                 
-        </div>
-
-               
-        <div class="mb-3">
-                   
-          <label for="email" class="form-label">Email Address:</label>          
-          <input
-            type="email"
-            id="email"
-            name="email"
-            class="form-control"
-            required
-          />
-          <span class="error-message text-danger" id="emailError"></span>
-                 
-        </div>
-
-               
-        <div class="mb-3">
-                   
-          <label for="phone" class="form-label">Phone Number:</label>          
-          <input type="tel" id="phone" name="phone" class="form-control" />
-          <span class="error-message text-danger" id="phoneError"></span>
-                 
-        </div>
-
-               
-        <div class="mb-3">
-                    <label for="subject" class="form-label">Subject:</label>    
-               
-          <input
-            type="text"
-            id="subject"
-            name="subject"
-            class="form-control"
-            required
-          />
-          <span class="error-message text-danger" id="subjectError"></span>
-                 
-        </div>
-
-               
-        <div class="mb-3">
-                    <label for="message" class="form-label">Message:</label>    
-               
-          <textarea
-            id="message"
-            name="message"
-            rows="5"
-            class="form-control"
-            required
-          ></textarea>
-          <span class="error-message text-danger" id="messageError"></span>
-                 
-        </div>
-
-        <div id="formResponse" class="mb-3"></div>
-
-               
-        <button type="submit" class="btn btn-primary me-2">Send Message</button>
-                <button type="reset" class="btn btn-secondary">Clear</button>  
-           
-      </form>
-           
-      <h3>Our Contact Details</h3>
-           
-      <ul class="list-group">
-               
-        <li class="list-group-item">
-                    <strong>Address:</strong> 123 Innovation Street, Tech City,
-          South           Africa        
-        </li>
-               
-        <li class="list-group-item"><strong>Phone:</strong> +27 82 123 4567</li>
-               
-        <li class="list-group-item">
-                    <strong>Email:</strong> info@smartbox.co.za        
-        </li>
-               
-        <li class="list-group-item">
-                    <strong>Website:</strong>          
-          <a href="index.html" target="_blank">SmartBox Service</a>        
-        </li>
-               
-        <li class="list-group-item">
-                    <strong>Customer Support Hours:</strong> Monday–Friday, 8:00
-          AM – 6:00           PM        
-        </li>
-             
-      </ul>
-         
+      <p>
+        We started in 2022 with a vision to eliminate queues, reduce contact,
+        and empower users with 24/7 access. Today, SmartBox is trusted by
+        individuals, students, businesses, and institutions across South Africa.
+      </p>
     </section>
 
-           
+    <section class="container my-5">
+      <h3 class="fw-bold mb-4 text-center">Awards & Recognition</h3>
+      <ul class="list-group">
+        <li class="list-group-item">🏆 2023 Innovation in Logistics Award</li>
+        <li class="list-group-item">🏆 2024 Best Contactless Solution</li>
+        <li class="list-group-item">🏆 2025 Customer Choice Award</li>
+      </ul>
+    </section>
+
+    <section class="container my-5">
+      <h3 class="fw-bold mb-4 text-center">Customer Reviews</h3>
+      <blockquote class="blockquote">
+        <p>
+          “SmartBox changed the way I collect parcels—no more waiting, no more
+          hassle.”
+        </p>
+        <footer class="blockquote-footer">Nhlelo M., Johannesburg</footer>
+      </blockquote>
+      <blockquote class="blockquote">
+        <p>
+          “As a student, I love having a secure place to store my things during
+          holidays.”
+        </p>
+        <footer class="blockquote-footer">Qhawe G., Cape Town</footer>
+      </blockquote>
+      <blockquote class="blockquote">
+        <p>
+          “We use SmartBox for storing tools and documents. It’s efficient and
+          secure.”
+        </p>
+        <footer class="blockquote-footer">Clinton P., Durban</footer>
+      </blockquote>
+    </section>
+
+    <section class="container my-5">
+      <h3 class="fw-bold mb-4 text-center">Our Services</h3>
+      <p>
+        SmartBox is a secure, self-service locker system powered by QR-code
+        access. Whether it’s picking up an online order, collecting a package,
+        or storing personal items, SmartBox makes the process simple and
+        contactless.
+      </p>
+      <p>
+        We go beyond parcel storage—offering smart lockers for food, work
+        equipment, and personal belongings. With 24/7 access and app-based
+        management, SmartBox is built for flexibility and peace of mind.
+      </p>
+    </section>
+
+    <!-- Who Can Use Section -->
+    <section class="container my-5">
+      <h3 class="fw-bold mb-4 text-center">Who Can Use SmartBox?</h3>
+      <ul class="list-group">
+        <li class="list-group-item">
+          👤 Individuals – Store seasonal items, furniture, or personal
+          belongings
+        </li>
+        <li class="list-group-item">
+          🎓 Students – Keep items safe between semesters or during holidays
+        </li>
+        <li class="list-group-item">
+          🏪 Small Business Owners – Secure inventory, tools, or documents
+        </li>
+        <li class="list-group-item">
+          🚚 People Moving or Renovating – Temporary storage for household items
+        </li>
+        <li class="list-group-item">
+          🔐 Anyone Who Values Security & Convenience – Enjoy QR-code access and
+          app control
+        </li>
+      </ul>
+    </section>
+
     <footer class="footer">
            
       <p>&copy; 2025 SmartBox. All rights reserved.</p>
@@ -210,10 +134,8 @@
          
     </footer>
 
-           
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-       
     <script src="js/script.js"></script>
-     
   </body>
 </html>
