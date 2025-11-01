@@ -5,6 +5,65 @@ Name: Zandile Gwala
 GitHub: @Zandile250
 Role: Developer with a passion for human-centered design, clear communication, and practical web solutions.
 
+Project Overview
+SmartBox is a modern moving and storage solution designed to simplify logistics for personal and commercial users. Instead of requiring customers to travel to a facility, SmartBox delivers the storage unit directly to them—offering convenience, flexibility, and peace of mind.
+
+Website Goals and Objectives
+
+- Provide an accessible platform for users to explore SmartBox’s services
+- Enable enquiries and contact through responsive forms
+- Communicate SmartBox’s value through clear design and interactive media
+- Ensure usability across devices and screen sizes
+
+Key Features and Functionality
+
+- Intuitive Navigation: Clean menu structure for easy access to services and contact pages
+- Responsive Design: Layout adapts to mobile, tablet, and desktop using media queries and Bootstrap
+- Embedded Video: Demonstrates how parcels are accessed via SmartBox
+- Interactive FAQ: Accordion component on service.html for user-friendly Q&A
+- Form Validation & AJAX: Smooth enquiry process on contactUs.html
+- Semantic HTML: Proper use of tags for accessibility and maintainability
+- Google Map Embed: Shows SmartBox HQ in Bryanston, Sandton
+
+Timeline and Milestones
+
+- September: Planning and wireframes
+- September: HTML structure and layout
+- October: CSS styling and responsive design
+- Novermber: Media integration and interactivity
+- November: Testing, accessibility improvements, and documentation
+
+art 1 Details
+Includes:
+
+- Homepage (index.html) with consistent navigation
+- Expanded aboutUs.html with company history, awards, reviews, and services
+- Interactive service.html with accordion FAQ
+- AJAX-enabled contactUs.html with validation
+- Responsive gallery using Flexbox and CSS Grid
+- CSS variables for scalable styling
+- Hover and focus effects for accessibility
+
+Sitemap
+A visual site map outlines the structure and user journey across:
+
+- Home
+- About Us
+- Services
+- Contact
+- Enquiries
+- Track Order
+- Return & Urgent Delivery
+
+Changelog
+Files Updated:
+
+- css/styles.css: Responsive styles, cleaned code
+- index.html: Navigation bar, layout fixes, accessibility improvements
+- aboutUs.html: Added detailed company info
+- contactUs.html: Form validation and AJAX
+- service.html: FAQ accordion
+
 Here's how the site looks on different devices:
 
 **Mobile (375px)**
@@ -32,26 +91,6 @@ W3Schools. (2023). HTML <picture> Element. [online] Available at: https://www.w3
 MDN Web Docs. (2024). CSS Flexible Box Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
 MDN Web Docs. (2024). CSS Grid Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
 Bootstrap Documentation. (2023). Bootstrap v5.3. Available at: https://getbootstrap.com/docs/5.3/
-
-Responsive Design
-The website layout automatically adjusts to different screen sizes, including mobile phones, tablets, and desktops. This was achieved using Bootstrap 5, which provides flexible grid systems and responsive components.
-
-Interactive FAQ (Accordion)
-On the service.html page, I added an accordion component using Vanilla JavaScript. This allows users to click on a question and reveal the answer, improving the overall user experience and keeping the page clean and easy to navigate.
-
-Form Validation & AJAX
-On the contactUs.html page, I implemented client-side form validation to ensure users fill in all required fields correctly. The form also uses AJAX submission, which sends the data without reloading the page and displays a success message after submission. This makes the inquiry process smoother and more user-friendly.
-
-- Updated index.html to include a consistent header navigation bar, ensuring users can easily access all pages from any part of the site. I also fixed layout issues and improved accessibility by adjusting color contrast and button spacing.
-- Expanded aboutUs.html with detailed sections on company history, awards, customer reviews, services, and target users. This helps communicate SmartBox’s mission and impact more clearly to visitors.
-- Styled headings using Bootstrap’s success color to visually highlight key sections like “Benefits” and “Our Journey.”
-- Improved video background visibility by removing conflicting background colors and ensuring overlay transparency.
-- Added README.md to document the project’s purpose, features, technologies used, and recent changes.
-
-- Embedded a responsive Google Map showing SmartBox HQ in Bryanston, Sandton
-- Added company address, contact number, and operating hours for clarity and professionalism
-- Styled headings and borders using SmartBox brand color #efd364 for visual consistency
-- Improved layout responsiveness across devices and ensured accessibility for all users
 
 Author
 Zandile

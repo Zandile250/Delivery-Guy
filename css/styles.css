@@ -1,16 +1,12 @@
-/* ========================================
-   SmartBox CSS Stylesheet
-   Desktop-First Responsive Design
-   ======================================== */
 :root {
-  --primary: #efd364;
-  --brand: #e9da66;
-  --muted: #ecf360;
-  --dark: #43433a;
-  --bg-light: #fafaf8;
-  --accent-gold: #f0d74a;
+  --bs-primary: var(--primary);
+  --bs-secondary: var(--muted);
+  --bs-dark: var(--dark);
+  --bs-light: var(--bg-light);
+  --bs-warning: var(--accent-gold);
+  --bs-body-bg: var(--bg-light);
+  --bs-body-color: var(--dark);
 
-  /* Typography Scale */
   --font-base: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   --font-size-base: 16px;
   --font-size-lg: 1.5rem;
