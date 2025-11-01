@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zandile250.github.io/Delivery-Guy/sitemap.xml
