@@ -63,6 +63,9 @@ Files Updated:
 - aboutUs.html: Added detailed company info
 - contactUs.html: Form validation and AJAX
 - service.html: FAQ accordion
+- utilsed Javascript in enhancing the web page
+
+i tested pictures using different devices.
 
 Here's how the site looks on different devices:
 
