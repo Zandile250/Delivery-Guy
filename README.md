@@ -1,3 +1,5 @@
+details has been shared regarding the structure of Readme file
+
 📦 Project Title
 Delivery Guy – SmartBox Website
 
@@ -33,7 +35,7 @@ Timeline and Milestones
 - Novermber: Media integration and interactivity
 - November: Testing, accessibility improvements, and documentation
 
-art 1 Details
+web programe
 Includes:
 
 - Homepage (index.html) with consistent navigation
@@ -89,7 +91,3 @@ W3Schools. (2023). HTML <picture> Element. [online] Available at: https://www.w3
 MDN Web Docs. (2024). CSS Flexible Box Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
 MDN Web Docs. (2024). CSS Grid Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
 Bootstrap Documentation. (2023). Bootstrap v5.3. Available at: https://getbootstrap.com/docs/5.3/
-
-Author
-Zandile
-A developer with a passion for human-centered design, clear communication, and practical web solutions. This project reflects a commitment to usability, empathy, and thoughtful execution.

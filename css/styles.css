@@ -71,6 +71,10 @@ p {
   margin-bottom: var(--spacing-md);
   line-height: var(--line-height-base);
 }
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: #efd364 !important;
+}
 
 .container {
   max-width: var(--container-max-width);
@@ -101,7 +105,7 @@ p {
 /* Button Styles with Pseudo-classes */
 .btn-primary {
   background-color: var(--primary) !important;
-  color: #fff !important;
+  color: #6c757d !important;
   border: none;
   border-radius: var(--border-radius);
   padding: var(--spacing-sm) var(--spacing-md);
@@ -174,7 +178,7 @@ p {
 }
 
 #social-media a[href*="wa.me"] i:hover {
-  color: #128c7e;
+  color: #efd364;
   transform: scale(1.2);
 }
 
@@ -440,12 +444,12 @@ section h3 {
   font-size: 1rem;
   font-weight: 500;
   border: none;
-  background-color: #fff;
+  background-color: #efd364;
   padding: 0.75rem 1rem;
 }
 
 blockquote {
-  background-color: #fff;
+  background-color: #ffffffd5;
   border-left: 5px solid #0d6efd;
   padding: 1rem;
   margin-bottom: 1.5rem;
